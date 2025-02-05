@@ -26,7 +26,7 @@
         <span class="loader"><span class="loader-inner"></span></span>
     </div>
 
-    <div id="copySec">คัดลอกสำเร็จ</div>
+    <div id="copySec" class="font-bold">Copied!</div>
     
     <div class="h-1 w-100 bg-indigo-300 sticky top-0 z-10"></div>
 
@@ -92,25 +92,25 @@
         <a href="https://html.com/">
             <div class="bg-red-600 hover:bg-red-700 rounded w-64 px-10 py-4 flex flex-col items-center">
                 <h3 class="text-lg font-bold">Front-End</h3>
-                <p class="text-sm underline decoration-solid">6+ Months experience</p>
+                <p class="text-sm underline decoration-solid">8+ Months experience</p>
             </div>
         </a>
         <a href="https://www.php.net/">
             <div class="bg-green-700 hover:bg-green-800 rounded w-64 px-10 py-4 flex flex-col items-center">
                 <h3 class="text-lg font-bold">Back-End</h3>
-                <p class="text-sm underline decoration-solid">2+ Months experience</p>
+                <p class="text-sm underline decoration-solid">4+ Months experience</p>
             </div>
         </a>
         <a href="https://www.php.net/">
             <div class="bg-blue-700 hover:bg-blue-800 rounded w-64 px-10 py-4 flex flex-col items-center">
                 <h3 class="text-lg font-bold">PHP Development</h3>
-                <p class="text-sm underline decoration-solid">2+ Months experience</p>
+                <p class="text-sm underline decoration-solid">4+ Months experience</p>
             </div>
         </a>
         <a href="https://www.java.com/">
             <div class="bg-yellow-500 hover:bg-yellow-600 rounded w-64 px-10 py-4 flex flex-col items-center">
                 <h3 class="text-lg font-bold">Java Development</h3>
-                <p class="text-sm underline decoration-solid">2+ Months experience</p>
+                <p class="text-sm underline decoration-solid">4+ Months experience</p>
             </div>
         </a>
     </div>
@@ -164,10 +164,50 @@
                 <p class="text-white mt-4 font-semibold">Squidgame MC Plugin Project</p>
                 <p class="text-gray-100">Using JAVA</p>
             </div>
+            <div class="flex flex-col items-center text-center">
+                <img
+                    src="assets/images/projects/zdg.png"
+                    alt="zDataGetter Project"
+                    class="rounded-md w-60 h-60 object-cover hover:opacity-60 cursor-pointer"
+                    onclick="openModal('assets/images/projects/zdg.png')"
+                />
+                <p class="text-white mt-4 font-semibold">MC Player Data Getter Plugin</p>
+                <p class="text-gray-100">Using JAVA</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img
+                    src="assets/images/projects/zfl.png"
+                    alt="zFL Project"
+                    class="rounded-md w-60 h-60 object-cover hover:opacity-60 cursor-pointer"
+                    onclick="openModal('assets/images/projects/zfl.png')"
+                />
+                <p class="text-white mt-4 font-semibold">MC Falling Leaves Plugin</p>
+                <p class="text-gray-100">Using JAVA</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img
+                    src="assets/images/projects/zcore.png"
+                    alt="zPleumCORE Project"
+                    class="rounded-md w-60 h-60 object-cover hover:opacity-60 cursor-pointer"
+                    onclick="openModal('assets/images/projects/zcore.png')"
+                />
+                <p class="text-white mt-4 font-semibold">MC Anti Hack Plugin</p>
+                <p class="text-gray-100">Using JAVA</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img
+                    src="assets/images/projects/zauth.png"
+                    alt="zPleumAUTH Project"
+                    class="rounded-md w-60 h-60 object-cover hover:opacity-60 cursor-pointer"
+                    onclick="openModal('assets/images/projects/zauth.png')"
+                />
+                <p class="text-white mt-4 font-semibold">MC Team Verify Plugin</p>
+                <p class="text-gray-100">Using JAVA, HTML, CSS, JS, TAILWIND CSS, PHP</p>
+            </div>
         </div>
         
     
-        <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-80 hidden justify-center items-center transition-opacity duration-500 opacity-0" onclick="closeModal()">
+        <div id="imageModal" class="z-20 fixed inset-0 bg-black bg-opacity-80 hidden justify-center items-center transition-opacity duration-500 opacity-0" onclick="closeModal()">
             <div class="flex justify-center items-center w-full h-full">
                 <div class="relative" onclick="event.stopPropagation();">
                     <img id="modalImage" src="" alt="Full Image" class="max-w-screen-md max-h-screen-md rounded-md"/>
@@ -218,7 +258,7 @@
                 Wiraphat
             </a>
             <div class="flex flex-col items-center lg:flex-row lg:items-center lg:justify-end gap-6 mt-4 lg:mt-0">
-                <p class="text-gray-300 text-center lg:text-left">© 2025 zPleum. All Rights Reserved.</p>
+                <p id="footer-year" class="text-gray-300 text-center lg:text-left">© 2025 zPleum. All Rights Reserved.</p>
                 <div class="flex gap-4">
                     <a href="https://www.facebook.com/people/Wiraphat-Makwong/61552804948437/" target="_blank">
                         <i class="fa-brands fa-facebook text-xl text-gray-400 hover:text-gray-300 cursor-pointer"></i>
@@ -236,7 +276,6 @@
             </div>
         </div>
     </footer>
-    
           
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -247,6 +286,7 @@
     <script src="assets/scripts/copy.js"></script>
     <script src="assets/scripts/nav.js"></script>
     <script src="assets/scripts/modal.js"></script>
+    <script src="assets/scripts/year.js"></script>
 
 </body>
 
