@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Proprietary Software License Agreement</title>  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    function changeLanguage(lang) {
+      const texts = {
+        "th": {
+          "title": "ข้อตกลงใบอนุญาตซอฟต์แวร์",
+          "serverName": "BonnieCraft",
+          "version": "1.0",
+          "date": "6 มีนาคม 2568",
+          "developer": "วีรภัทร มากวงษ์",
+          "generalAgreement": "1. ข้อตกลงทั่วไป",
+          "licenseGrant": "2. การให้สิทธิ์การใช้งาน",
+          "ownershipRestrictions": "3. การเป็นเจ้าของและข้อจำกัด",
+          "maintenanceSupport": "4. การบำรุงรักษาและการสนับสนุน",
+          "termination": "5. ข้อกำหนดการยุติสิทธิ์การใช้งาน",
+          "limitationOfLiability": "6. ข้อจำกัดความรับผิดชอบ",
+          "confidentiality": "7. การรักษาความลับ",
+          "governingLaw": "8. กฎหมายที่ใช้บังคับ",
+          "amendments": "9. การแก้ไขข้อตกลง"
+        },
+        "en": {
+          "title": "Proprietary Software License Agreement",
+          "serverName": "BonnieCraft",
+          "version": "1.0",
+          "date": "March 6, 2025",
+          "developer": "Wiraphat Makwong",
+          "generalAgreement": "1. General Agreement",
+          "licenseGrant": "2. License Grant",
+          "ownershipRestrictions": "3. Ownership and Restrictions",
+          "maintenanceSupport": "4. Maintenance and Support",
+          "termination": "5. Termination Terms",
+          "limitationOfLiability": "6. Limitation of Liability",
+          "confidentiality": "7. Confidentiality",
+          "governingLaw": "8. Governing Law",
+          "amendments": "9. Amendments"
+        }
+      };
+
+      const elements = document.querySelectorAll("[data-i18n]");
+      elements.forEach(element => {
+        const key = element.getAttribute("data-i18n");
+        element.innerText = texts[lang][key];
+      });
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
+</head>
+
+<body class="!font-[Kanit] bg-gray-100 text-gray-900 font-sans flex items-center justify-center min-h-screen">
+
+  <div class="w-full max-w-7xl pt-8 bg-white rounded-lg">
+    <div class="flex justify-between items-center mb-2">
+      <h1 class="text-3xl font-bold text-center text-blue-600 w-full" data-i18n="title">ข้อตกลงใบอนุญาตซอฟต์แวร์</h1>
+    </div>
+    <div class="flex justify-center">
+      <button onclick="changeLanguage('th')" class="px-16 py-2 bg-blue-500 hover:bg-blue-600 transition-all duration-300 ease-in-out text-white rounded-lg">TH</button>
+      <button onclick="changeLanguage('en')" class="px-16 py-2 bg-blue-500 hover:bg-blue-600 transition-all duration-300 ease-in-out text-white rounded-lg ml-4">EN</button>
+    </div>
+
+    <div class="space-y-6 mt-8 px-8 mb-10">
+      <div class="text-xl text-gray-800 text-center">
+        <p><strong>สำหรับเว็บไซต์:</strong> <span data-i18n="serverName">BonnieCraft</span></p>
+        <p><strong>เวอร์ชัน:</strong> <span data-i18n="version">1.0</span></p>
+        <p><strong>วันที่มีผล:</strong> <span data-i18n="date">6 มีนาคม 2568</span></p>
+        <p><strong>ชื่อผู้พัฒนา:</strong> <span data-i18n="developer">วีรภัทร มากวงษ์</span></p>
+      </div>
+
+      <h2 class="text-2xl font-semibold text-blue-600" data-i18n="generalAgreement">1. ข้อตกลงทั่วไป</h2>
+      <p>1.1 ข้อตกลงใบอนุญาตซอฟต์แวร์ฉบับนี้ ("ข้อตกลง") เป็นสัญญาระหว่าง วีรภัทร มากวงษ์ ("Licensor") และ Play.BonnieCraft.Online ("Licensee") ซึ่งครอบคลุมการใช้งานเว็บไซต์ BonnieCraft ที่พัฒนาโดย Licensor</p>
+      <p>1.2 การใช้งานเว็บไซต์ภายใต้ข้อตกลงนี้แสดงว่า Licensee ยอมรับและปฏิบัติตามเงื่อนไขทั้งหมดในข้อตกลงนี้</p>
+      <p>1.3 Licensor เป็นเจ้าของกรรมสิทธิ์ทั้งหมดในซอฟต์แวร์ รวมถึงโค้ด การออกแบบ ข้อมูล และองค์ประกอบอื่น ๆ ของเว็บไซต์ BonnieCraft</p>
+
+      <h2 class="text-2xl font-semibold text-blue-600" data-i18n="licenseGrant">2. การให้สิทธิ์การใช้งาน</h2>
+      <p>2.1 Licensor อนุญาตให้ Licensee ใช้เว็บไซต์นี้ โดยไม่โอนกรรมสิทธิ์ และเป็นไปตามข้อกำหนดในข้อตกลงนี้</p>
+      <p>2.2 สิทธิ์การใช้งานเป็นแบบ ไม่สามารถโอนสิทธิ์ต่อได้ และ ไม่มีสิทธิ์ในการแจกจ่ายหรือขายต่อ</p>
+      <p>2.3 Licensee ไม่มีสิทธิ์ ในการแก้ไข ดัดแปลง รีเวิร์สเอนจิเนียริ่ง หรือคัดลอกส่วนหนึ่งส่วนใดของเว็บไซต์โดยไม่ได้รับอนุญาตจาก Licensor</p>
+
+      <h2 class="text-2xl font-semibold text-blue-600" data-i18n="ownershipRestrictions">3. การเป็นเจ้าของและข้อจำกัด</h2>
+      <p>3.1 เว็บไซต์นี้ รวมถึงโค้ดทั้งหมด ฐานข้อมูล การออกแบบ และทรัพย์สินทางปัญญาที่เกี่ยวข้อง เป็นกรรมสิทธิ์ของ Licensor 100%</p>
+      <p>3.2 Licensee ไม่มีสิทธิ์ อ้างสิทธิ์ความเป็นเจ้าของซอฟต์แวร์นี้ ไม่ว่าในกรณีใด ๆ</p>
+      <p>3.3 Licensee ไม่มีสิทธิ์ ใช้เว็บไซต์เพื่อวัตถุประสงค์ที่ผิดกฎหมาย ขัดต่อศีลธรรม หรือเป็นอันตรายต่อบุคคลที่สาม</p>
+
+      <h2 class="text-2xl font-semibold text-blue-600" data-i18n="maintenanceSupport">4. การบำรุงรักษาและการสนับสนุน</h2>
+      <p>4.1 Licensor ไม่มีภาระผูกพันในการให้บริการบำรุงรักษาหรือสนับสนุนเว้นแต่จะมีข้อตกลงแยกต่างหาก</p>
+      <p>4.2 การขอความช่วยเหลือหรือการอัปเดตเพิ่มเติมอาจมีค่าใช้จ่ายเพิ่มเติมตามที่ Licensor กำหนด</p>
+
+      <h2 class="text-2xl font-semibold text-blue-600" data-i18n="termination">5. ข้อกำหนดการยุติสิทธิ์การใช้งาน</h2>
+      <p>5.1 Licensor มีสิทธิ์ เพิกถอนสิทธิ์การใช้งานได้ตลอดเวลา โดยแจ้งให้ Licensee ทราบล่วงหน้า 3 วัน</p>
+      <p>5.2 ในกรณีที่ Licensee ละเมิดข้อกำหนดใด ๆ ในข้อตกลงนี้ Licensor สามารถ เพิกถอนสิทธิ์ได้ทันที และ Licensee ต้องปิดเว็บไซต์ทันที</p>
+      <p>5.3 หาก Licensee หยุดใช้งานเว็บไซต์หรือไม่ต้องการใช้ต่อไป Licensee ไม่มีสิทธิ์ให้บุคคลอื่นใช้แทน โดยไม่ได้รับอนุญาตจาก Licensor</p>
+      <p>5.4 หาก Licensor ยกเลิกสิทธิ์การใช้งาน Licensee ต้อง ปิดเว็บไซต์และหยุดการใช้งานทั้งหมดทันที หรือภายใน 3 วัน มิฉะนั้นจะถือว่าเป็นการละเมิดข้อตกลงนี้</p>
+      <p>5.5 Licensee ห้ามเก็บเว็บไซต์หรือซอร์สโค้ด หรือเก็บข้อมูลใด ๆ ที่เกี่ยวข้องกับเว็บไซต์นี้ ไม่ว่าจะเป็นโค้ดหรือส่วนหนึ่งของโค้ด ทั้งหมดภายหลังการยกเลิกสิทธิ์การใช้งาน</p>
+      <p>5.6 หาก Licensee ฝ่าฝืนข้อกำหนดนี้ Licensor จะดำเนินการทางกฎหมายตามสิทธิของตน</p>
+
+      <h2 class="text-2xl font-semibold text-blue-600" data-i18n="limitationOfLiability">6. ข้อจำกัดความรับผิดชอบ</h2>
+      <p>6.1 Licensor ไม่มีความรับผิดชอบต่อความเสียหายหรือการสูญเสียใด ๆ ที่เกิดจากการใช้งานหรือไม่สามารถใช้งานเว็บไซต์ได้</p>
+      <p>6.2 Licensor จะไม่รับผิดชอบต่อการสูญหายของข้อมูลหรือความเสียหายที่เกิดจากการแทรกแซงของบุคคลที่สาม</p>
+
+      <h2 class="text-2xl font-semibold text-blue-600" data-i18n="confidentiality">7. การรักษาความลับ</h2>
+      <p>7.1 ข้อมูลที่ได้รับจาก Licensee จะถือเป็นความลับและ Licensor จะรักษาความลับตามที่กฎหมายกำหนด</p>
+
+      <h2 class="text-2xl font-semibold text-blue-600" data-i18n="governingLaw">8. กฎหมายที่ใช้บังคับ</h2>
+      <p>8.1 ข้อตกลงนี้จะอยู่ภายใต้การบังคับใช้ของกฎหมายไทย</p>
+
+      <h2 class="text-2xl font-semibold text-blue-600" data-i18n="amendments">9. การแก้ไขข้อตกลง</h2>
+      <p>9.1 Licensor มีสิทธิ์ในการแก้ไขข้อตกลงนี้ตามที่เห็นสมควร และจะแจ้งให้ Licensee ทราบล่วงหน้า</p>
+    </div>
+  </div>
+
+</body>
+</html>
