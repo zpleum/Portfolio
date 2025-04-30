@@ -78,6 +78,9 @@ export function Footer() {
                   </a>
                 </Button>
             </div>
+            <div className="flex pt-2">
+              <a href="//www.dmca.com/Protection/Status.aspx?ID=d73b13a4-305d-458a-b987-b78d0f19ce56" title="DMCA.com Protection Status" className="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w150-5x1-02.png?ID=d73b13a4-305d-458a-b987-b78d0f19ce56"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+            </div>
           </div>
         </div>
         <div className="mt-8 border-t pt-6">
