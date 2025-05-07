@@ -24,7 +24,8 @@ const skillCategories = [
     name: "Backend",
     skills: [
       { name: "Node.js", level: "Intermediate", description: "Writing backend logic and APIs" },
-      { name: "MySQL", level: "Intermediate", description: "Database modeling and querying with SQL" }
+      { name: "MySQL", level: "Intermediate", description: "Database modeling and querying with SQL" },
+      { name: "Nodemon", level: "Intermediate", description: "Auto-restarting Node.js server for development" }
     ]
   },
   {

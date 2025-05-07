@@ -4,6 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import LoadingSpinner from "@/components/LoadingSpinner";
 import { Suspense } from "react";
+import { ScrollToTop } from "@/components/scroll-to-top";
+import { ToastProvider } from "@/components/toast-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,7 +36,9 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <Suspense fallback={<LoadingSpinner />}>
             {children}
+            <ScrollToTop />
           </Suspense>
+          <ToastProvider />
         </ThemeProvider>
       </body>
     </html>
