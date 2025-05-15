@@ -161,7 +161,7 @@ export function ContactSection() {
   return (
     <section
       id="contact"
-      className="py-20 md:py-24"
+      className="py-20 md:py-24 overflow-x-hidden"
     >
       <div className="container px-4 md:px-6">
         <AnimatedSection direction="up">
